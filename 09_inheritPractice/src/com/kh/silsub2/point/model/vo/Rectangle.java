@@ -31,6 +31,7 @@ public class Rectangle extends Point{
 		this.height = height;
 	}
 	
+	@Override
 	public void draw() {
 		System.out.printf("면적: %.1f\t", (double)width*height);
 		System.out.printf("둘레: %.1f\n", (double)2*(width+height));

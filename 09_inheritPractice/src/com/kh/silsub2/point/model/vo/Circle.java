@@ -15,6 +15,7 @@ public class Circle extends Point{
 		this.radius = radius;
 	}
 	
+	@Override
 	public void draw() {
 		System.out.print("좌표: "+x+", "+y+"\t");
 		System.out.printf("원면적: %.1f\t",Math.PI*radius*radius);

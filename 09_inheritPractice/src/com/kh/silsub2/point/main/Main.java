@@ -26,19 +26,18 @@ public class Main {
 		for(int i=0 ; i<rarr.length ; i++) {
 			rarr[i].draw();
 		}
+		System.out.println();
 		
 		
 		//3
-//		Point[] parr = new Point[5];
-//		parr[0] = new Point(3,8);
-//		parr[1] = new Point(6,2);
-//		parr[2] = new Point(6,5);
-//		parr[3] = new Point(8,2);
-//		parr[4] = new Point(6,6);
-//		
-//		Circle[] anc;
-//		for(int i=0 ; i<parr.length ; i++) {
-//			anc[i] = parr[i];
-//		}
+		Point[] parr = new Point[5];
+		parr[0] = new Circle(6,7,3);
+		parr[1] = new Circle(6,4,9);
+		parr[2] = new Circle(3,7,8);
+		parr[3] = new Rectangle(2,8);
+		parr[4] = new Rectangle(5,8);
+		for(int i=0 ; i<parr.length ; i++) {
+			parr[i].draw();
+		}
 	}
 }
